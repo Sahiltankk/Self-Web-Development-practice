@@ -9,20 +9,31 @@
 <body>
 
 <table>
+
     <caption>
-        Cat Favourite Dairy Food
+        Fig 1.1 Cats Favourite Dairy Food
     </caption>
+    
     <thead>
         <tr>
-            <th scope="col">Cat</th>
-            <th scope="col">Favourite Food</th>
-            <th scope="col">Age</th>
+            <th scope="col" rowspan="2">Cat</th>
+            <th scope="col" colspan="3">Favourite Food</th>
+            <th scope="col" rowspan="2">Age</th>
         </tr>
+
+        <tr>
+            <th scope="col">Morning</th>
+            <th scope="col">Evening</th>
+            <th scope="col">Night</th>
+        </tr>
+
     </thead>
 
     <tbody>
         <tr>
             <th scope="row">Brownie</th>
+            <td>Milk</td>
+            <td>Milk</td>
             <td>Milk</td>
             <td>3</td>
         </tr>
@@ -30,17 +41,24 @@
         <tr>
             <th scope="row">Shimbha</th>
             <td>Panner</td>
+            <td>Milk</td>
+            <td>Milk</td>
             <td>3</td>
         </tr>
 
         <tr>
             <th scope="row">Cotton</th>
             <td>Yogurt</td>
+            <td>Milk</td>
+            <td>Milk</td>
+            
             <td>3</td>
         </tr>
 
         <tr>
             <th scope="row">Panther</th>
+            <td>Milk</td>
+            <td>Milk</td>
             <td>Milk</td>
             <td>3</td>
         </tr>
@@ -48,12 +66,14 @@
         <tr>
             <th scope="row">Silky</th>
             <td>Panner</td>
+            <td>Milk</td>
+            <td>Milk</td>
             <td>7</td>
         </tr>
     </tbody>
     <tfoot>
         <tr>
-            <th scope="row" colspan="2">Average Age</th>
+            <th scope="row" colspan="4">Average Age</th>
             <td>3.8</td>
         </tr>
     </tfoot>
